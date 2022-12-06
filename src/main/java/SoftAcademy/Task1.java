@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println("Hellow! Please, enter your name?");
+        System.out.println("Hello! Please, enter your name?");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println("Nice to meet you, " + name + "!");
